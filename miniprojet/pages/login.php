@@ -2,7 +2,7 @@
 
 $template = "login";
 
-require './../templates/layout.phtml';
+require 'templates/layout.phtml';
 
 ?>
 

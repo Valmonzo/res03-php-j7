@@ -17,7 +17,7 @@ Prend first_name, last_name, email, password en paramètres et les initialise. I
 
 
 class User {
-    private int $id;
+    private ?int $id;
     private string $first_name;
     private string $last_name;
     private string $email;
@@ -25,7 +25,7 @@ class User {
 
 
     public function __construct(string $first_name, string $last_name, string $email, string $password) {
-        $this->id = null;
+        $this->id = NULL;
         $this->first_name = $first_name;
         $this->last_name = $last_name;
         $this->email = $email;
@@ -39,7 +39,7 @@ class User {
 
     public function getFirstName() : string
     {
-        return $this->first_ame;
+        return $this->first_name;
     }
 
     public function getLastName() : string
